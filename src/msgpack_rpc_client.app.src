@@ -1,0 +1,10 @@
+{application, msgpack_rpc_client,
+ [{description, "MessagePack RPC client"},
+  {vsn, git},
+  {modules, []},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib]},
+  {mod, {msgpack_rpc_client_app, []}},
+  {env, []}]}.
